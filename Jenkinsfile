@@ -5,6 +5,7 @@ pipeline {
         stage('Stage One') {
             steps {
                 echo 'Hello Stage One - Step 1'
+		    		input('Do you want to proceed?')
 				echo 'Hello Stage One - Step 1' 
 				build job : "RunCodeGit"
             }
