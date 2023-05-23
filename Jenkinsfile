@@ -6,7 +6,7 @@ pipeline {
             steps {
                 echo 'Hello Stage One - Step 1'
 				echo 'Hello Stage One - Step 1' 
-				build job : "RunJavaCode"
+				build job : "RunCodeGit"
             }
         }
 		stage('Stage Two') {
